@@ -1,0 +1,37 @@
+# Ignore development and editor folders
+.vscode/
+.git/
+.ebextensions/
+
+# Ignore build artifacts and metadata
+*.egg-info/
+mlproject.egg-info/
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore logs and unnecessary runtime files
+logs/
+*.log
+
+# Ignore virtual environment
+venv/
+
+# Ignore model artifacts or experiment outputs
+artifact/
+catboost_info/
+
+# Ignore datasets or temp data (if you ever add them)
+*.csv
+*.tsv
+*.json
+*.pkl
+*.pt
+*.npy
+*.zip
+
+# Ignore notebooks
+*.ipynb
+
+# Ignore README or documentation (optional)
+README.md
